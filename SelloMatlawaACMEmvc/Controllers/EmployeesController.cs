@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using SelloACME.Models;
+using SelloMatlawaACMEmvc.Models;
 
-namespace SelloACME.Controllers
+namespace SelloMatlawaACMEmvc.Controllers
 {
     public class EmployeesController : Controller
     {
@@ -149,21 +149,6 @@ namespace SelloACME.Controllers
             _context.Employee.Remove(employee);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
-        }
-
-        //Search for empoyees
-        public ActionResult SearchEmployees(string employee)
-        {
-            var person = from s in _context.Employee
-                         select s;
-            if (!String.IsNullOrEmpty(employee))
-            {
-                person = person.Where(c => c.Person.FirstName.Contains(employee));
-
-            }
-
-            return View(person.ToList());
-
         }
 
         private bool EmployeeExists(int id)

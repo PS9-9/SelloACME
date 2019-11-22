@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SelloACME\SelloACME.csproj" />
+    <ProjectReference Include="..\SelloACME\SelloACMEapi.csproj" />
   </ItemGroup>
 
 </Project>

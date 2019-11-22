@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29512.175
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelloACME", "SelloACME\SelloACME.csproj", "{EB402B49-C425-475D-A6D5-0FE924FC496A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelloACME", "SelloACME\SelloACME.csproj", "{EB402B49-C425-475D-A6D5-0FE924FC496A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelloACMEIntegrationTests", "SelloACMEIntegrationTests\SelloACMEIntegrationTests.csproj", "{D77AD12E-26F2-4A0B-99FB-4BFC9800C6EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelloACMEIntegrationTests", "SelloACMEIntegrationTests\SelloACMEIntegrationTests.csproj", "{D77AD12E-26F2-4A0B-99FB-4BFC9800C6EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelloMatlawaACMEmvc", "SelloMatlawaACMEmvc\SelloMatlawaACMEmvc.csproj", "{AACC393E-D410-46DB-B9CD-2E2DE0439D09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D77AD12E-26F2-4A0B-99FB-4BFC9800C6EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D77AD12E-26F2-4A0B-99FB-4BFC9800C6EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D77AD12E-26F2-4A0B-99FB-4BFC9800C6EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AACC393E-D410-46DB-B9CD-2E2DE0439D09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AACC393E-D410-46DB-B9CD-2E2DE0439D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AACC393E-D410-46DB-B9CD-2E2DE0439D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AACC393E-D410-46DB-B9CD-2E2DE0439D09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
